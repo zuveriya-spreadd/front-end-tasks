@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  border: 2px gray solid;
+  margin: 20px;
+}
+/* TASK 1 */
+.header1 nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+/* TASK 2 */
+.header2 nav ul{
+ display: flex;
+
+}
+.header2 ul li{
+ flex:1;
+}
+.header2 ul li:first-child{
+  flex: 2;
+}
+
+
+li{
+  list-style-type: none;
+
+  text-decoration: none;
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  color: white;
+}
+li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+/* TASK 3 */
+.container{
+  border: 2px solid #77a6b6;
+  display: flex;
+  border-radius: 0.5em;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.child{
+  background-color: #4d7298;
+  width: 150px;
+  padding: 0.5em;
+  color : white;
+  text-align: left;
+}
+
+/* TASK 4 */
+.items ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 450px;
+}
