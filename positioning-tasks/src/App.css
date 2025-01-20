@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: gray 3px solid;
+  border-radius: 0.5em;
+  padding: .5em 1em;
+  position: relative;
+
+}
+
+.target{
+ 
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+ 
+}
+.target, .target2{
+  background-color: plum;
+  border: purple 3px solid;
+  width: 150px;
+  height: 160px;
+}
+.target2{
+  position: fixed;
+  top:0px;
+  left:0px;
+}
