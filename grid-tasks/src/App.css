@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+ .grid1 {
+  border: 2px gray solid;
+  margin: 20px;
+}
+/* TASK 1 */
+.grid1 ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+}
+li{
+  list-style-type: none;
+
+  text-decoration: none;
+}
+.grid1 ul li{
+  
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  color: white;
+}
+li a{
+  text-decoration: none;
+  color: white;
+
+}
+/* TASK 2 */
+.grid2{
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap : 15px;
+}
+.item1,.item2{
+  color: white;
+  border-radius: 0.5em;
+ 
+}
+.item1{
+  background-color: rgb(74 102 112 / 70%);
+  border: 5px solid rgb(74 102 112 / 100%);
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: 1;
+}
+.item2{
+  background-color: rgb(214 162 173 / 70%);
+  border: 5px solid rgb(214 162 173 / 100%);
+  grid-column: 2/5;
+  grid-row:2/4;
+}
+
+
+
+/* TASK 3 */
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:10px;
+  
+}
+.grid3 div{
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  color: white;
+}
+ .one{
+  grid-row: 1; 
+  grid-column:1/3 ; 
+}
+.four{
+  grid-column: 2/3;
+}
+
+
+
+/* TASK 4 */
+.grid4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+}
+
+.tags {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.balloon > img{
+  object-fit: cover;
+   width: 100%;
+  height: 100%; 
+
+}
+.balloon{
+  display:grid;
+  grid-template-rows: 200px min-content;
+}
+.tags li{
+  background-color: gray;
+ color: white;
+ border-radius: 0.5em;
+ padding: 0.2em 0.8em;
+ margin: 5px;
+
+}
